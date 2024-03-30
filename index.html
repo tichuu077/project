@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currency Converter</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav1">
+      <span class="logo">
+        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/currency-exchange.png"
+          alt="currency-exchange" />
+      </span>
+      <span>Currency Converter</span>
+    </div>
+    <div class="nav2">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <form id="currencyForm">
+      <input type="number" id="currencyValue" placeholder="Enter amount">
+      <select id="currencyOptions">
+        <option value="INR">INR</option>
+        <option value="USD">USD</option>
+        <option value="EURO">EURO</option>
+      </select>
+      <button class="submit" type="submit">Convert</button>
+    </form>
+
+    <table id="currencyTable">
+      <thead>
+        <tr>
+          <th>Currency</th>
+          <th>Value</th>
+          <th>Converted Currency</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <!-- Table rows will be added dynamically using JavaScript -->
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Currency Converter by Claim</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
