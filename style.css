@@ -1,0 +1,164 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color:#8fd4ea;
+}
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #0bbdf9;
+}
+.nav1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.nav2{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+span{
+  font-size:15px;
+  font-weight:bold;
+  margin:5px;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-right:10px;
+}
+
+ 
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.container{
+  margin:20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:100%;
+  justify-content: space-around;
+  
+}
+
+form{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width:100%;
+  height:100%;
+}
+form input{
+  padding: 10px 10px 10px 10px;
+  width:90%;
+  margin:auto;
+  border: 1px solid #40a6ce; /* Sky blue */
+}
+
+form select{
+  padding: 10px 10px 10px  10px;
+  width:90%;
+  margin:auto;
+  border: 1px solid #30addf; /* Sky blue */
+}
+
+form button{
+  width:90%;
+  margin:auto;
+  padding:10px 0px ;
+  background-color:#3bb7e8; /* Sky blue */
+  color:#fff;
+  border: none;
+  cursor: pointer;
+
+}
+
+table{
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+  /* Sky blue */
+}
+
+table th,table td{
+  border: 1px solid #0a6d94; /* Sky blue */
+  padding:5px;
+  
+}
+
+footer{
+  background-color:#4169e1; /* Blue */
+  color:#fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height:30px;
+  position: fixed;
+  bottom: 0;
+margin-top:40px;
+border:1px solid #000000; /* Sky blue */
+display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+table tr td:nth-child(1),table tr td:nth-child(2){
+  text-align:center;
+}
+/* CSS for screens narrower than 340px */
+@media screen and (max-width: 340px) {
+
+  span{
+    font-size:10px;
+    font-weight:bold;
+    margin:5px;
+  }
+  nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  footer{
+    background-color:#4169e1; /* Blue */
+    color:#fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height:30px;
+    position: fixed;
+    bottom: 0;
+  margin-top:40px;
+  border:1px solid #000000; /* Sky blue */
+  display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 10px;
+  }
+  .container{
+    margin:20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    justify-content: space-around;
+   gap:20px;
+  }
+  form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:100%;
+    height:100%;
+  }
+}
